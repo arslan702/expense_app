@@ -1,0 +1,38 @@
+.container{
+  max-width: 400px;
+    min-height: 450px;
+    margin: 0 auto;
+    /* background-color: #efefef; */
+    /* box-shadow: 0 0 7px gray; */
+    margin-top: 50px;
+    padding: 15px 50px;
+}
+.text{
+  text-align: center;
+}
+.trans-cont{
+  justify-content: space-around;
+  display: flex;
+  background-color: white;
+}
+.trans-list{
+  margin: 0;
+  padding: 0;
+}
+.trans-list >li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px gray;
+  background-color: white;
+  padding: 5px 5px;
+  margin: 5px 0;
+}
+.form input{
+  width: 100%;
+  padding: 5px 0;
+  margin-top: 10px 0;
+}
+.last{
+  background-color: blueviolet;
+  color: white;
+}
