@@ -41,7 +41,7 @@ return(
         </div>
         <h3>History</h3>
         <hr/>
-                <ul className="trans-list">
+        <ul className="trans-list">
         {transactions.map((transobj,ind) => {
             return(
                 <li>
